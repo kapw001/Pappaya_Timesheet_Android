@@ -8,6 +8,8 @@
     <color name="backgroundcolor">#D3D3D3</color>
     <color name="black">@color/primary_text</color>
 
+    <color name="red">#FF0000</color>
+
 
     <color name="primary">#23AF5C</color>
     <color name="primary_dark">#23AF5C</color>

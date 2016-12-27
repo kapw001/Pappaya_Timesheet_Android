@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Timesheets</string>
+    <string name="app_name">Pappaya</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -28,16 +28,12 @@
 
 
     <string-array name="project">
-        <item>Project 1</item>
-        <item>Project 2</item>
-        <item>Project 3</item>
-        <item>Project 4</item>
-        <item>Project 5</item>
-        <item>Project 6</item>
-        <item>Project 7</item>
-        <item>Project 8</item>
-        <item>Project 9</item>
-        <item>Project 10</item>
+        <item>Odoo</item>
+        <item>C++</item>
+        <item>Java</item>
+        <item>Android</item>
+        <item>IOS</item>
+        <item>.Net</item>
     </string-array>
 
     <string-array name="hours">

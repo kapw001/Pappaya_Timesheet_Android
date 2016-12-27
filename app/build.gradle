@@ -3,13 +3,14 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.0"
-
+    useLibrary 'org.apache.http.legacy'
     defaultConfig {
-        applicationId "xirid.xirid.com.timesheets"
+        applicationId "com.pappaya.prms"
         minSdkVersion 11
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
+
     }
     buildTypes {
         release {
@@ -32,6 +33,10 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:25.0.0'
     compile 'com.google.code.gson:gson:2.2.4'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha8'
+
+    compile 'com.daimajia.swipelayout:library:1.2.0@aar'
+
+    compile 'com.chauthai.swipereveallayout:swipe-reveal-layout:1.4.0'
 
 //    compile 'net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.0.0'
 

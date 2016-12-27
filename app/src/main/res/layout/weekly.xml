@@ -40,6 +40,7 @@
                     android:id="@+id/startdate"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="start"
                     android:layout_weight="1"
                     android:fontFamily="@string/family"
                     android:text="10/11/16" />
@@ -56,6 +57,7 @@
                     android:id="@+id/enddate"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="start"
                     android:layout_weight="1"
                     android:fontFamily="@string/family"
                     android:text="17/11/16" />
